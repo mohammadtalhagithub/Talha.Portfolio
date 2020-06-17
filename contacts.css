@@ -1,0 +1,61 @@
+*{
+	font-family: Comic Sans MS;
+
+    margin: 0;
+    padding:0;
+    font-weight: normal;
+    
+}
+
+
+
+header .back {
+	top: 100px;
+	color: white;
+}
+
+header{ 
+    background-image: url(./images/stairs.jpg);
+    
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+}
+
+.container{
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.box {
+    transition: 3s ease;
+    font-size: 17px;
+    left: 40px;
+    position: center;
+    background-color: #fff;
+    margin-top: 200px;    
+    height: 550px;
+    width: 600px;
+    opacity: 90%;
+}
+
+.container .box .logo img{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    margin-top: -150px;
+    
+}
+
+.container .box .logoname {
+    position: absolute;
+    color: #fff;
+    
+    margin-top: -130px;
+    margin-left: 110px;
+    font-size: 40px;
+}

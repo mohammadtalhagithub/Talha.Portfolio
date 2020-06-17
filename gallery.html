@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+						<!--CSS styling starts in the html itself-->
+	<style> 
+
+
+		@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+		body{
+			background: #212121;
+			color: #fff;
+			font-family: roboto;
+		}
+		.outer{
+			position: relative;
+			margin-top: 250px;
+			margin-left: 600px;
+		}
+
+		h1{
+			font-size: 25px;
+
+		}
+
+		.inner{
+			position: absolute;
+			border: 0px solid #eee;
+			height: 30px;
+			font-size: 25px;
+			text-transform: none;
+			display: inline-block;
+			overflow: hidden;
+		}
+		.inner span {
+			animation: animate 4s ease infinite;
+			position: relative;
+			color: #e58e26;
+		}
+
+		@keyframes animate{
+			0%{ top: 0 }
+			25%{ top: -30px }
+			50%{ top: -60.5px }
+			75%{ top: 0 }
+
+
+
+		}
+	</style> 			<!--CSS styling ends in the html itself-->
+
+
+</head>
+<body>
+	<div class="outer">
+		<h1>I am,&nbsp&nbsp
+			<div class="inner">
+				<span>
+					Mohammad Talha <br>
+					a Mecanical Engineer <br>
+					&amp;
+					a CAD Designer
+				</span>
+			</div>			
+		</h1>
+		
+	</div>
+
+</body>
+</html>

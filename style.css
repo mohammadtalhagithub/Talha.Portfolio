@@ -1,0 +1,353 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+
+}
+/*<div class="containerr"></div>
+<div class="software">
+<img src="images/software.bmp"></div> */
+header ul li.active a{
+    background-color: #E2E2E2;
+    color: #032930;
+}
+
+header h3 .quote{
+    font-size: 30px;
+    left: 30px;
+
+}
+
+
+.myname {
+    position: absolute;
+
+    color: #D2D2D2;
+    font-size: 28px;
+    top: 120px;
+    left: 40px;
+    font-family: Century Gothic;
+
+}
+
+header .myname p {
+    font-weight: normal;
+    float: left;
+    color: white;
+    opacity: 80%;
+
+}
+
+header .mail {
+    position: absolute;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 80%;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    left: 40px;
+    top: 260px;
+}
+
+.dp img {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    width:100px;
+    height: auto;
+
+}
+
+h3 {
+    font-family: Century Gothic;
+    position: absolute;
+    left: 465px;
+    top: 250px;
+
+}
+
+header ul{
+    font-family: Century Gothic;
+    font-size: 20px;
+    font-weight: 700;
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+header ul li{
+    display: inline-block;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 40px;
+    border: 0px solid #E2E2E2;
+    transition: 2s ease;
+    opacity: 100%;
+}
+
+header ul li a:hover{
+    transition: 0.5s ease;
+    background-color: #E2E2E2;
+    color: #032930;
+    }
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-family: century gothic;
+    color: #D2D2D2;
+    font-size: 60px;
+
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #D2D2D2;
+}
+p {
+    color: #D2D2D2;
+} 
+
+header,
+header:before {
+    background: 50% 50% / cover;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(images/stairs.jpg); /*background image*/
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+
+}
+
+/*--------------------------Sections---------------------------*/
+
+.sectionone {    
+    z-index: 2;
+    position: absolute;
+    top: 100vh;
+    height: 150px;
+    background: #DADADA  ;
+    line-height: 20px;
+    font-family: Century Gothic;
+    font-weight: 400;
+    padding: 40px;
+    color: black;
+
+}
+
+.sectiontwo { 
+    z-index: 2;
+    position: absolute;
+    top: 180vh;
+    width: 100%;
+    height: 150px;
+    background: #868686;
+    line-height: 20px;
+    font-family: Century Gothic;
+    font-weight: 400;
+    padding: 40px;
+    color: white;
+}
+
+.sectionthree { 
+    z-index: 2;
+    position: absolute;
+    top: 260vh;
+    height: 150px;
+    background: #DADADA  ;
+    line-height: 20px;
+    font-family: Century Gothic;
+    font-weight: 400;
+    padding: 40px;
+    color: black;
+}
+
+.sectionfour { 
+    z-index: 2;
+    position: absolute;
+    top: 340vh;
+    height: 150px;
+    width: 100%;
+    background: #868686;
+    line-height: 20px;
+    font-family: Century Gothic;
+    font-weight: 400;
+    padding: 40px;
+    color: white;
+}
+
+
+h2{
+    margin-top: -5px;
+}
+
+p {
+    font-size: 17px;
+    color: black;
+    font-weight: 645;
+}
+
+
+
+
+
+.container {    
+    z-index: 2;
+    position: absolute;
+    top: 100vh;
+    background: #383838 ;
+    line-height: 30px;
+    font-family: Century Gothic;
+    font-weight: 400;
+    padding: 40px;
+    color: grey;
+
+}
+
+
+
+
+.myportfolio {
+
+    font-family: century gothic;
+    transition: 2s ease;
+    color: #fff;
+  
+}
+
+.software img {
+    position: absolute;
+    left: 60%;
+    top: 800px;
+    width: 450px;
+    height: auto;
+}
+
+
+
+.linkedin img{
+    float: right;
+    margin-top: 100px;
+    margin-right: 13px;
+    width: 30px;
+    height: auto;
+    
+}
+
+.youtubelogo img{
+    float: right;
+    margin-right: 10px;
+    margin-top: 100px;
+    width: 31px;
+    height: auto;
+
+}
+
+.instagram img{
+    float: right;
+    margin-right: 5px;
+    margin-top: 100px;
+    width: 33px;
+    height: auto;
+
+}
+
+.facebook img{
+    float: right;
+    margin-right: 6px;
+    margin-top: 100px;
+    width: 30px;
+    height: auto;
+}
+
+
+ /*-------------------------------footer------------------------------*/
+
+footer {
+    width: 100%;
+    background-color: #222;
+    position: absolute;
+    top: 500px;
+    margin-top: 2000px;
+    padding: 20px 0px; /*60 from top n bottom, 0 from left n right*/
+}
+
+footer ul{
+    
+    font-size: 15px;
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 90px;
+}
+
+footer ul li{
+    display: inline-block;    
+}
+
+footer ul li a{
+    font-family: Century Gothic;
+    text-decoration: none;
+    color: #E2E2E2;
+    padding: 10px 40px;
+    border: 1px solid #313131;
+}
+
+footer .copyright{
+    font-family: Century Gothic;
+    letter-spacing: 1px;
+    margin-left: 10px;
+
+}
+
+/* @media(max-width: 568px) {
+    .sectionone, .sectiontwo, .sectionthree, .sectionfour{
+        background-attachment: scroll;
+    }
+}
+       */
